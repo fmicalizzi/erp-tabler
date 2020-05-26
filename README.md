@@ -58,6 +58,7 @@ Package: https://github.com/nWidart/laravel-modules
 8. Configurar las credenciales para la base de datos dentro de .env
 9. php artisan migrate --seed
 10. php artisan admin:module-aclmanager:install #agregar los modulos Role, User y los permisos ACL
+11. php artisan storage:link #para generar el enlace con los archivos de imágenes públicos.
 
 Abrir la url para acceder al sistema con la url previamente configurada según el entorno de desarrollo utilizado http://dominio.test/admin/
 
